@@ -1,6 +1,6 @@
-# PaymentManagmentApp
+# Payment Managment App
 
-This repository contains the **PaymentManagmentApp** project, which includes both the backend and frontend components within the same repository.
+This repository contains the **Payment Managment App** project, which includes both the backend and frontend components within the same repository.
 
 - **Backend:** ASP.NET Core API for managing payment data.
 - **Frontend:** React application built with Vite for managing payments.

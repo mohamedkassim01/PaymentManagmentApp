@@ -185,6 +185,7 @@ function PaymentTypeForm({ updatePaymentList, paymentType, setPaymentType }) {
     console.log(result);
     if (result.success) {
       updatePaymentList();
+      if (id != null) setPaymentType({ value: newPaymentType.id, label: newPaymentType.name, number: newPaymentType.paymentNo });
       toast.success((id != null)?'تم التعديل بنجاح':'تم إضافة نوع الدفع بنجاح');
       clearPaymentTypeForm();
     }
